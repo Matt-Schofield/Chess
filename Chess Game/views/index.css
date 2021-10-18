@@ -1,0 +1,80 @@
+
+/* --------- Reset --------- */
+
+/* Default broswer styling reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    /* overflow: hidden; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+/* --------- Reset --------- */
+
+/* Canvas Positioning */
+/* canvas { */
+    /* background: linear-gradient(310deg, 
+    rgba(255,20,20,1) 12.5%, 
+    rgba(255,181,31,1) 25%, 
+    rgba(48,255,40,1) 37.5%, 
+    rgba(37,255,246,1) 50%, 
+    rgba(78,34,255,1) 62.5%, 
+    rgba(194,38,255,1) 75%, 
+    rgba(255,47,205,1) 87.5%); */
+
+    /* background: rgb(61, 61, 131);
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+/* } */
+
+canvas {
+    /* background: linear-gradient(
+    310deg, 
+    rgba(255,20,20,1) 6%, 
+    rgba(255,181,31,1) 12%, 
+    rgba(48,255,40,1) 18%, 
+    rgba(37,255,246,1) 24%, 
+    rgba(78,34,255,1) 30%, 
+    rgba(194,38,255,1) 36%, 
+    rgba(255,47,205,1) 42%,
+    rgba(255,20,20,1) 48%, 
+    rgba(255,181,31,1) 54%, 
+    rgba(48,255,40,1) 60%, 
+    rgba(37,255,246,1) 66%, 
+    rgba(78,34,255,1) 72%, 
+    rgba(194,38,255,1) 78%, 
+    rgba(255,47,205,1) 84%,
+    rgba(255,20,20,1) 90%, 
+    rgba(255,20,20,1) 100%
+    );
+
+    background-size: 1600% 1600%;
+
+    animation: GradientAnimation 10s infinite; */
+
+    background: darkslategrey;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* @keyframes GradientAnimation {
+    0%{background-position:0% 7%}
+    100%{background-position:100% 94%}
+    100%{background-position:0% 7%} 
+} */
