@@ -1,6 +1,6 @@
 # Chess
 Basic browser based chess game.
 
-Certain chess mechanics aren't implemented such as validating King moves but you can do that yourself and not be lazy 😤.
+Certain chess mechanics aren't implemented such as validating King moves because I'm lazy 😤.
 
 By Matt Schofield
